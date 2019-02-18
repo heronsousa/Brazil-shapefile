@@ -1,4 +1,3 @@
-install.packages("rgdal")
 library(rgdal)
 library(ggplot2)
 
