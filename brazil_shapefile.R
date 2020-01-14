@@ -1,7 +1,7 @@
 library(rgdal)
 library(ggplot2)
 
-shp <- readOGR("Map\\.", "BRUFE2500GC_SIR")
+shp <- readOGR(dsn='Map/')
 
 shp_df <- fortify(shp)
 
